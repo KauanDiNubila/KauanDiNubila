@@ -21,7 +21,7 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 
 - Tenho projetos próprios em produção, incluindo uma aplicação baseada em **microsserviços**.
 - Aprofundando em arquitetura de sistemas distribuídos, mensageria e observabilidade.
-- Português (nativo) e Inglês (fluente).
+- Português (nativo) e Inglês (avançado).
 - Atibaia, São Paulo — aberto a oportunidades como desenvolvedor back-end.
 
 ---
@@ -32,7 +32,6 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 
 **Persistência & Banco de Dados**
 
