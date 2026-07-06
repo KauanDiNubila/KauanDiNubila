@@ -61,6 +61,14 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 
 ### Projetos em destaque
 
+#### [Lexo — Plataforma Jurídica em Microsserviços (Full-Stack + IA)](https://github.com/KauanDiNubila/lexo-backend)
+
+SaaS de gestão para escritórios de advocacia em **arquitetura de microsserviços** (8 serviços + API Gateway + *service discovery*), com banco isolado por serviço, mensageria (**Kafka** para eventos de domínio e **RabbitMQ** com *dead-letter queue*), resiliência com *circuit breaker* e *tracing* distribuído (Zipkin). Integra **IA de verdade** (Google Gemini) para resumo de processos, assistente jurídico e geração de petições, além de um **portal público do cliente** (*magic link*) e **frontend React** completo. Sobe por inteiro — serviços, infraestrutura e frontend — com um único `docker compose up`, e tem CI no GitHub Actions.
+
+`Java 21` · `Spring Boot` · `Spring Cloud` · `OpenFeign` · `Kafka` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Google Gemini` · `React` · `Docker Compose`
+
+<br>
+
 #### [Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)
 
 API REST para controle de finanças pessoais — autenticação JWT, listagem paginada, resumo mensal e análise de gastos por categoria, com isolamento de dados por usuário. Containerizada com Dockerfile multi-stage, **implantada no Render** e com interface web própria servida pela aplicação. Coberta por testes de unidade (JUnit 5 + Mockito).
