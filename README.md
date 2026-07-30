@@ -1,4 +1,4 @@
-<h1 align="center">Kauan Antonio Di Nubila</h1>
+<h1 align="center">Kauan Di Nubila</h1>
 
 <p align="center">
   <strong>Desenvolvedor Back-end · Java &amp; Spring Boot</strong>
