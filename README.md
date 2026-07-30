@@ -22,7 +22,6 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 - Tenho projetos próprios em produção, incluindo uma aplicação baseada em **microsserviços**.
 - Aprofundando em arquitetura de sistemas distribuídos, mensageria e observabilidade.
 - Português (nativo) e Inglês (avançado).
-- Atibaia, São Paulo — aberto a oportunidades como desenvolvedor back-end.
 
 ---
 
