@@ -17,7 +17,7 @@
 
 ### Sobre mim
 
-Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo sistemas completos do código ao deploy — não só a API, mas a infraestrutura que a sustenta.
+Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo sistemas completos do código ao deploy.
 
 - Dois produtos full-stack próprios **em produção**: arquitetura de microsserviços/monólito modular, mensageria (Kafka, RabbitMQ), *circuit breaker*, *rate limiting* e observabilidade.
 - Deploy e operação de infraestrutura real: containers, TLS, CI/CD, testes automatizados e hardening de segurança (JWT com rotação, RBAC, CSP).
@@ -88,7 +88,3 @@ SaaS de gestão para escritórios de advocacia em **arquitetura de microsserviç
   <img src="https://github-readme-stats.vercel.app/api?username=KauanDiNubila&show_icons=true&theme=default&hide_border=true" alt="Estatisticas do GitHub" />
 </p>
 -->
-
-<p align="center">
-  <em>Aberto a oportunidades como desenvolvedor back-end Java.</em>
-</p>
