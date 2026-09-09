@@ -17,10 +17,10 @@
 
 ### Sobre mim
 
-Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo APIs REST seguras e bem estruturadas, aplicando orientação a objetos, arquitetura em camadas, testes automatizados e boas práticas.
+Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo sistemas completos do código ao deploy — não só a API, mas a infraestrutura que a sustenta.
 
-- Tenho projetos próprios em produção, incluindo uma aplicação baseada em **microsserviços**.
-- Aprofundando em arquitetura de sistemas distribuídos, mensageria e observabilidade.
+- Dois produtos full-stack próprios **em produção**: arquitetura de microsserviços/monólito modular, mensageria (Kafka, RabbitMQ), *circuit breaker*, *rate limiting* e observabilidade.
+- Deploy e operação de infraestrutura real: containers, TLS, CI/CD, testes automatizados e hardening de segurança (JWT com rotação, RBAC, CSP).
 - Português (nativo) e Inglês (avançado).
 
 ---
