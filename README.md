@@ -60,30 +60,23 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 
 ### Projetos em destaque
 
+#### [Astra — Ecossistema de Estudos](https://github.com/KauanDiNubila/astra)
+
+Ecossistema de estudos full-stack (**Java** com **Spring Boot** + **React**) em produção: sessões de foco com Pomodoro ou registro manual, dashboard, metas, roadmaps de aprendizado, ranking social e chat em tempo real, tudo agregado sobre um único núcleo de dados. Back-end em **monólito modular por feature** e segurança em camadas — JWT de acesso curto, refresh token com rotação e detecção de reuso, RBAC reavaliado a cada requisição, recusa de senhas vazadas e CSP restritiva — validada por auditoria automatizada (**OWASP ZAP**). Infraestrutura própria de ponta a ponta: VM na nuvem, **Vercel**, Postgres serverless (**Neon**) e **Cloudflare**.
+
+`Java 21` · `Spring Boot` · `React` · `PostgreSQL (Neon)` · `JWT` · `Vercel` · `Cloudflare`
+
+**Demo ao vivo:** [astra-app.dev](https://astra-app.dev)
+
+<br>
+
 #### [Lexo — Plataforma Jurídica em Microsserviços (Full-Stack + IA)](https://github.com/KauanDiNubila/lexo-backend)
 
-SaaS de gestão para escritórios de advocacia em **arquitetura de microsserviços** (8 serviços + API Gateway + *service discovery*), com banco isolado por serviço, mensageria (**Kafka** para eventos de domínio e **RabbitMQ** com *dead-letter queue*), resiliência com *circuit breaker* e *tracing* distribuído (Zipkin). Integra **IA de verdade** (Google Gemini) para resumo de processos, assistente jurídico e geração de petições, além de um **portal público do cliente** (*magic link*) e **frontend React** completo. Sobe por inteiro — serviços, infraestrutura e frontend — com um único `docker compose up`, e tem CI no GitHub Actions.
+SaaS de gestão para escritórios de advocacia em **arquitetura de microsserviços** (9 serviços, com API Gateway e *service discovery*), com banco isolado por serviço, mensageria (**Kafka** para eventos de domínio e **RabbitMQ** com *dead-letter queue*), resiliência com *circuit breaker*, *rate limiting* no gateway e *tracing* distribuído (Zipkin). Integra **IA de verdade** (Google Gemini) para resumo de processos, assistente jurídico e geração de petições, além de um **portal público do cliente** (*magic link*) e **frontend React** completo. Deploy real em produção na Oracle Cloud, com HTTPS automático (Caddy + Let's Encrypt) e CI no GitHub Actions.
 
 `Java 21` · `Spring Boot` · `Spring Cloud` · `OpenFeign` · `Kafka` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Google Gemini` · `React` · `Docker Compose`
 
-<br>
-
-#### [Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)
-
-API REST para controle de finanças pessoais — autenticação JWT, listagem paginada, resumo mensal e análise de gastos por categoria, com isolamento de dados por usuário. Containerizada com Dockerfile multi-stage, **implantada no Render** e com interface web própria servida pela aplicação. Coberta por testes de unidade (JUnit 5 + Mockito).
-
-`Java 17` · `Spring Boot` · `Spring Security/JWT` · `Spring Data JPA` · `PostgreSQL` · `Flyway` · `Docker`
-
-**Demo ao vivo:** [gestao-financeira-api-ss04.onrender.com](https://gestao-financeira-api-ss04.onrender.com)
-> Hospedado no plano gratuito do Render: a primeira requisição pode levar ~1 min enquanto o serviço inicializa.
-
-<br>
-
-#### [Reservas API — Microsserviços](https://github.com/KauanDiNubila/reservas-apiV1)
-
-Sistema de reserva de salas em **arquitetura de microsserviços** (5 serviços + API Gateway), com banco isolado por serviço (*database-per-service*), autenticação JWT centralizada no gateway, autorização por papéis (ADMIN/USER), login social com GitHub (OAuth2) e validação de conflito de horário. Sobe por completo — serviços e bancos — com um único `docker-compose up`, e inclui interface web para demonstração ponta a ponta.
-
-`Java 21` · `Spring Boot` · `Spring Cloud Gateway` · `Spring Security/JWT` · `OAuth2` · `PostgreSQL` · `Docker Compose`
+**Demo ao vivo:** [lexo-kauan1.duckdns.org](https://lexo-kauan1.duckdns.org)
 
 ---
 
