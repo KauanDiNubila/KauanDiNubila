@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="190" viewBox="0 0 390 190" role="img" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0.5" y="0.5" width="389" height="189" rx="10" fill="#0a0a0a" stroke="#3a3a3a"/>
+<text x="26" y="34" font-size="15" font-weight="700" fill="#f5f5f5">Estatísticas de Kauan</text>
+<line x1="26" y1="44" x2="364" y2="44" stroke="#3a3a3a"/>
+<text x="26" y="66" font-size="13" fill="#8c8c8c">Estrelas recebidas</text>
+<text x="364" y="66" font-size="14" font-weight="700" text-anchor="end" fill="#f5f5f5">3</text>
+<text x="26" y="92" font-size="13" fill="#8c8c8c">Commits (12 meses)</text>
+<text x="364" y="92" font-size="14" font-weight="700" text-anchor="end" fill="#f5f5f5">414</text>
+<text x="26" y="118" font-size="13" fill="#8c8c8c">Pull requests</text>
+<text x="364" y="118" font-size="14" font-weight="700" text-anchor="end" fill="#f5f5f5">65</text>
+<text x="26" y="144" font-size="13" fill="#8c8c8c">Issues</text>
+<text x="364" y="144" font-size="14" font-weight="700" text-anchor="end" fill="#f5f5f5">27</text>
+<text x="26" y="170" font-size="13" fill="#8c8c8c">Repositórios públicos</text>
+<text x="364" y="170" font-size="14" font-weight="700" text-anchor="end" fill="#f5f5f5">11</text>
+</svg>

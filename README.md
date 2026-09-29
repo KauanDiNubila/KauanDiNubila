@@ -1,22 +1,55 @@
-<h1>Kauan Di Nubila</h1>
+<img src="assets/banner.svg" alt="Kauan Di Nubila, desenvolvedor back-end" width="100%">
+
+<img src="assets/typing.svg" alt="Desenvolvedor Back-End Java; Spring Boot e Microsserviços; Astra e Lexo em produção" width="500" height="44">
 
 <p>
-  <img src="assets/typing.svg" alt="Desenvolvedor Back-End Java; Spring Boot e Microsserviços; Astra e Lexo em produção" width="500" height="44">
-</p>
-
-<p>
-  <a href="https://kauan-dev-puce.vercel.app"><img src="https://img.shields.io/badge/Portfólio-E4570E?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio"></a>
-  <a href="https://www.linkedin.com/in/kauan-di-nubila-933562263/"><img src="https://img.shields.io/badge/LinkedIn-111110?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:kauandinubila@gmail.com"><img src="https://img.shields.io/badge/E--mail-111110?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="https://kauan-dev-puce.vercel.app"><img src="https://img.shields.io/badge/PORTFÓLIO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/kauan-di-nubila-933562263/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:kauandinubila@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
 </p>
 
 ## Sobre
+
+<img align="right" width="300" src="assets/cloud.svg" alt="Nuvem de partículas do portfólio">
 
 Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo sistemas completos e coloco no ar.
 
 - **Dois produtos full-stack próprios em produção**, um em microsserviços e outro em monólito modular, com mensageria, *circuit breaker*, *rate limiting* e observabilidade.
 - **Infraestrutura real:** containers, TLS, CI/CD, testes automatizados e segurança em camadas (JWT com rotação de refresh token, RBAC, CSP).
 - Português nativo, inglês avançado.
+
+## Tecnologias
+
+<p>
+  <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/SPRING_BOOT-000000?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/SPRING_CLOUD-000000?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Cloud">
+  <img src="https://img.shields.io/badge/SPRING_SECURITY-000000?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security">
+  <img src="https://img.shields.io/badge/WEBFLUX-000000?style=for-the-badge&logo=spring&logoColor=white" alt="WebFlux">
+  <img src="https://img.shields.io/badge/POSTGRESQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MYSQL-000000?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/REDIS-000000?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/FLYWAY-000000?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway">
+  <img src="https://img.shields.io/badge/KAFKA-000000?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka">
+  <img src="https://img.shields.io/badge/RABBITMQ-000000?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ">
+  <img src="https://img.shields.io/badge/DOCKER-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/GITHUB_ACTIONS-000000?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/JUNIT_5-000000?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit 5">
+  <img src="https://img.shields.io/badge/OPENAPI-000000?style=for-the-badge&logo=swagger&logoColor=white" alt="OpenAPI">
+  <img src="https://img.shields.io/badge/ORACLE_CLOUD-000000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud">
+  <img src="https://img.shields.io/badge/CLOUDFLARE-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare">
+  <img src="https://img.shields.io/badge/REACT-000000?style=for-the-badge&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/TYPESCRIPT-000000?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+</p>
+
+## Estatísticas
+
+<p>
+  <img src="assets/stats.svg" alt="Estatísticas do GitHub" height="190">
+  <img src="assets/streak.svg" alt="Sequência de contribuições" height="190">
+</p>
+
+<img src="assets/graph.svg" alt="Gráfico de contribuições dos últimos 30 dias" width="100%">
 
 ## Projetos em produção
 
@@ -33,17 +66,6 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 | **[Codechella](https://github.com/KauanDiNubila/Codechella)** | API reativa de eventos e ingressos, usada para comparar desempenho reativo e bloqueante sob carga | WebFlux, R2DBC, Flyway |
 | **[Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)** | Receitas e despesas com JWT, relatório mensal e gastos por categoria. [Demo](https://gestao-financeira-api-ss04.onrender.com) | Spring Boot, JPA, Docker |
 | **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)** | Trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro | Spring Boot, React Flow |
-
-## Stack
-
-| | |
-|---|---|
-| **Back-end** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![WebFlux](https://img.shields.io/badge/WebFlux-6DB33F?style=flat-square&logo=spring&logoColor=white) |
-| **Dados** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Mensageria** | ![Kafka](https://img.shields.io/badge/Kafka-111110?style=flat-square&logo=apachekafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) |
-| **Qualidade** | ![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white) ![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square&logo=java&logoColor=white) ![Testcontainers](https://img.shields.io/badge/Testcontainers-111110?style=flat-square&logo=testcontainers&logoColor=white) ![OpenAPI](https://img.shields.io/badge/OpenAPI-85EA2D?style=flat-square&logo=swagger&logoColor=black) |
-| **Infra** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-111110?style=flat-square&logo=vercel&logoColor=white) |
-| **Front-end** | ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
 
 ## Contato
 

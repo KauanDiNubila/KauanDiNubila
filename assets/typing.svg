@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="44" viewBox="0 0 500 44" role="img" aria-label="Desenvolvedor Back-End Java; Spring Boot · Microsserviços; Astra e Lexo em produção">
 <title>Desenvolvedor Back-End Java; Spring Boot · Microsserviços; Astra e Lexo em produção</title>
 <style>
-text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace;font-weight:600;fill:#E4570E}
-.cur{fill:#E4570E}
+text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace;font-weight:600;fill:#24292f}
+@media (prefers-color-scheme:dark){text{fill:#f0f6fc}.cur{fill:#f0f6fc}}
+.cur{fill:#24292f}
 @keyframes w0{0%{width:0}0.000%{width:0}14.917%{width:356.4px}27.440%{width:356.4px}31.123%{width:0}100%{width:0}}
 @keyframes c0{0%{transform:translateX(0);opacity:0}0.004%{transform:translateX(0);opacity:0}0.000%{transform:translateX(0);opacity:1}14.917%{transform:translateX(356.4px);opacity:1}27.440%{transform:translateX(356.4px);opacity:1}31.123%{transform:translateX(0);opacity:1}31.131%{transform:translateX(0);opacity:0}100%{transform:translateX(0);opacity:0}}
 .w0{animation:w0 13.575s steps(27) infinite}
