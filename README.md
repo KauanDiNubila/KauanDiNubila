@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="assets/hero.gif" alt="Kauan Di Nubila, desenvolvedor back-end Java e Spring" width="100%">
-</p>
+<h1 align="center">Kauan Di Nubila</h1>
+
+<p align="center"><strong>Desenvolvedor Back-End · Java &amp; Spring Boot</strong></p>
 
 <p align="center">
   <a href="https://kauan-dev-puce.vercel.app"><img src="https://img.shields.io/badge/Portfólio-E4570E?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio"></a>
