@@ -229,44 +229,6 @@ ${xl}
   );
 }
 
-function bannerSvg() {
-  const W = 830;
-  const H = 260;
-  let seed = 11;
-  const rnd = () => {
-    seed = (seed * 16807) % 2147483647;
-    return seed / 2147483647;
-  };
-  const waves = [];
-  const rows = 15;
-  for (let k = 0; k < rows; k++) {
-    const p1 = rnd() * 6.28;
-    const p2 = rnd() * 6.28;
-    const base = 118 + k * 10;
-    const amp = 9 + k * 1.1;
-    const pts = [];
-    for (let x = 0; x <= W; x += 5) {
-      const t = x / W;
-      const y = base - amp * (0.7 * Math.sin(t * 3.1 + p1) + 0.3 * Math.sin(t * 7.3 + p2));
-      pts.push(`${x},${y.toFixed(1)}`);
-    }
-    const opacity = (0.3 + (k / (rows - 1)) * 0.7).toFixed(2);
-    waves.push(
-      `<polygon points="0,${H} ${pts.join(" ")} ${W},${H}" fill="${BG}" stroke="#ffffff" stroke-opacity="${opacity}" stroke-width="1.2" stroke-linejoin="round"/>`
-    );
-  }
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Kauan Di Nubila, desenvolvedor back-end">
-<defs>
-<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151515"/><stop offset="1" stop-color="${BG}"/></linearGradient>
-</defs>
-<rect width="${W}" height="${H}" rx="10" fill="url(#fade)"/>
-${waves.join("\n")}
-<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="none" stroke="${EDGE}"/>
-<text x="${W / 2}" y="96" font-family="${FONT}" font-size="46" font-weight="700" text-anchor="middle" fill="${INK}" stroke="${BG}" stroke-width="6" paint-order="stroke">Kauan Di Nubila</text>
-<text x="${W / 2}" y="132" font-family="${MONO}" font-size="20" text-anchor="middle" fill="${INK}" stroke="${BG}" stroke-width="5" paint-order="stroke">&lt;/&gt; back-end</text>
-</svg>`;
-}
-
 function cloudSvg() {
   const W = 300;
   const H = 210;
@@ -306,7 +268,6 @@ ${dots}
 }
 
 mkdirSync("assets", { recursive: true });
-writeFileSync("assets/banner.svg", bannerSvg());
 writeFileSync("assets/cloud.svg", cloudSvg());
 
 const profile = (await gql(PROFILE, { login: LOGIN })).user;

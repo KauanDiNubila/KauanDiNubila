@@ -1,7 +1,3 @@
-<img src="assets/banner.svg" alt="Kauan Di Nubila, desenvolvedor back-end" width="100%">
-
-<img src="assets/typing.svg" alt="Desenvolvedor Back-End Java; Spring Boot e Microsserviços; Astra e Lexo em produção" width="500" height="44">
-
 <p>
   <a href="https://kauan-dev-puce.vercel.app"><img src="https://img.shields.io/badge/PORTFÓLIO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"></a>
   <a href="https://www.linkedin.com/in/kauan-di-nubila-933562263/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
