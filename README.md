@@ -1,4 +1,4 @@
-<h1>Kauan Di Nubila</h1>
+<h1>Kauan Di Nubila 👋</h1>
 
 <p><strong>Desenvolvedor Back-End · Java &amp; Spring Boot</strong></p>
 
