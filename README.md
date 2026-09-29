@@ -1,3 +1,7 @@
+<h1>Kauan Di Nubila</h1>
+
+<p><strong>Desenvolvedor Back-End · Java &amp; Spring Boot</strong></p>
+
 <p>
   <a href="https://kauan-dev-puce.vercel.app"><img src="https://img.shields.io/badge/PORTFÓLIO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"></a>
   <a href="https://www.linkedin.com/in/kauan-di-nubila-933562263/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
