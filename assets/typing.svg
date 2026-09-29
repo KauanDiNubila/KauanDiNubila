@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="44" viewBox="0 0 500 44" role="img" aria-label="Desenvolvedor Back-End Java; Spring Boot · Microsserviços · Kafka; Astra e Lexo em produção">
+<title>Desenvolvedor Back-End Java; Spring Boot · Microsserviços · Kafka; Astra e Lexo em produção</title>
+<style>
+text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace;font-weight:600;fill:#E4570E}
+.cur{fill:#E4570E}
+@keyframes w0{0%{width:0}0.000%{width:0}14.286%{width:356.4px}26.279%{width:356.4px}29.806%{width:0}100%{width:0}}
+@keyframes c0{0%{transform:translateX(0);opacity:0}0.004%{transform:translateX(0);opacity:0}0.000%{transform:translateX(0);opacity:1}14.286%{transform:translateX(356.4px);opacity:1}26.279%{transform:translateX(356.4px);opacity:1}29.806%{transform:translateX(0);opacity:1}29.813%{transform:translateX(0);opacity:0}100%{transform:translateX(0);opacity:0}}
+.w0{animation:w0 14.175s steps(27) infinite}
+.c0{animation:c0 14.175s steps(27) infinite}
+@keyframes w1{0%{width:0}32.275%{width:0}51.323%{width:475.2px}63.316%{width:475.2px}66.843%{width:0}100%{width:0}}
+@keyframes c1{0%{transform:translateX(0);opacity:0}32.268%{transform:translateX(0);opacity:0}32.275%{transform:translateX(0);opacity:1}51.323%{transform:translateX(475.2px);opacity:1}63.316%{transform:translateX(475.2px);opacity:1}66.843%{transform:translateX(0);opacity:1}66.850%{transform:translateX(0);opacity:0}100%{transform:translateX(0);opacity:0}}
+.w1{animation:w1 14.175s steps(36) infinite}
+.c1{animation:c1 14.175s steps(36) infinite}
+@keyframes w2{0%{width:0}69.312%{width:0}82.011%{width:316.8px}94.004%{width:316.8px}97.531%{width:0}100%{width:0}}
+@keyframes c2{0%{transform:translateX(0);opacity:0}69.305%{transform:translateX(0);opacity:0}69.312%{transform:translateX(0);opacity:1}82.011%{transform:translateX(316.8px);opacity:1}94.004%{transform:translateX(316.8px);opacity:1}97.531%{transform:translateX(0);opacity:1}97.538%{transform:translateX(0);opacity:0}100%{transform:translateX(0);opacity:0}}
+.w2{animation:w2 14.175s steps(24) infinite}
+.c2{animation:c2 14.175s steps(24) infinite}
+@media (prefers-reduced-motion:reduce){
+.w0{animation:none;width:356.4px}
+.w1,.w2{animation:none;width:0}
+.c0,.c1,.c2{animation:none;opacity:0}
+}
+</style>
+<defs><clipPath id="k0"><rect class="w0" x="0" y="0" width="0" height="44"/></clipPath><clipPath id="k1"><rect class="w1" x="0" y="0" width="0" height="44"/></clipPath><clipPath id="k2"><rect class="w2" x="0" y="0" width="0" height="44"/></clipPath></defs>
+<text x="0" y="29" font-size="22" textLength="356.4" lengthAdjust="spacing" clip-path="url(#k0)">Desenvolvedor Back-End Java</text><rect class="c0 cur" x="0" y="8" width="2" height="26" rx="1" opacity="0"/>
+<text x="0" y="29" font-size="22" textLength="475.2" lengthAdjust="spacing" clip-path="url(#k1)">Spring Boot · Microsserviços · Kafka</text><rect class="c1 cur" x="0" y="8" width="2" height="26" rx="1" opacity="0"/>
+<text x="0" y="29" font-size="22" textLength="316.8" lengthAdjust="spacing" clip-path="url(#k2)">Astra e Lexo em produção</text><rect class="c2 cur" x="0" y="8" width="2" height="26" rx="1" opacity="0"/>
+</svg>
