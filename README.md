@@ -1,103 +1,60 @@
-<h1 align="center">Kauan Di Nubila</h1>
-
 <p align="center">
-  <strong>Desenvolvedor Back-end · Java &amp; Spring Boot</strong>
+  <img src="assets/banner.svg" alt="Kauan Di Nubila, desenvolvedor back-end Java e Spring" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kauan-di-nubila-933562263/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:kauandinubila@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>
+  <a href="https://kauan-dev-puce.vercel.app"><img src="https://img.shields.io/badge/Portfólio-E4570E?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/kauan-di-nubila-933562263/"><img src="https://img.shields.io/badge/LinkedIn-111110?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:kauandinubila@gmail.com"><img src="https://img.shields.io/badge/E--mail-111110?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
 </p>
 
----
+## Sobre
 
-### Sobre mim
+Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo sistemas completos e coloco no ar.
 
-Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo sistemas completos do código ao deploy.
+- **Dois produtos full-stack próprios em produção**, um em microsserviços e outro em monólito modular, com mensageria, *circuit breaker*, *rate limiting* e observabilidade.
+- **Infraestrutura real:** containers, TLS, CI/CD, testes automatizados e segurança em camadas (JWT com rotação de refresh token, RBAC, CSP).
+- Português nativo, inglês avançado.
 
-- Dois produtos full-stack próprios **em produção**: arquitetura de microsserviços/monólito modular, mensageria (Kafka, RabbitMQ), *circuit breaker*, *rate limiting* e observabilidade.
-- Deploy e operação de infraestrutura real: containers, TLS, CI/CD, testes automatizados e hardening de segurança (JWT com rotação, RBAC, CSP).
-- Português (nativo) e Inglês (avançado).
-
----
-
-### Tecnologias
-
-**Linguagem & Frameworks**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-
-**Persistência & Banco de Dados**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-**Mensageria**
-
-![Kafka](https://img.shields.io/badge/Apache_Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-
-**Segurança & APIs**
-
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger/OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-
-**Testes**
-
-![JUnit5](https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-78A641?style=for-the-badge&logo=java&logoColor=white)
-
-**DevOps & Ferramentas**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**Cloud & Deploy**
-
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-
----
-
-### Projetos em destaque
-
-#### [Astra — Ecossistema de Estudos](https://github.com/KauanDiNubila/astra)
-
-Ecossistema de estudos full-stack (**Java** com **Spring Boot** + **React**) em produção: sessões de foco com Pomodoro ou registro manual, dashboard, metas, roadmaps de aprendizado, ranking social e chat em tempo real, tudo agregado sobre um único núcleo de dados. Back-end em **monólito modular por feature** e segurança em camadas — JWT de acesso curto, refresh token com rotação e detecção de reuso, RBAC reavaliado a cada requisição, recusa de senhas vazadas e CSP restritiva — validada por auditoria automatizada (**OWASP ZAP**). Infraestrutura própria de ponta a ponta: VM na nuvem, **Vercel**, Postgres serverless (**Neon**) e **Cloudflare**.
-
-`Java 21` · `Spring Boot` · `React` · `PostgreSQL (Neon)` · `JWT` · `Vercel` · `Cloudflare`
-
-**Demo ao vivo:** [astra-app.dev](https://astra-app.dev)
-
-<br>
-
-#### [Lexo — Plataforma Jurídica em Microsserviços (Full-Stack + IA)](https://github.com/KauanDiNubila/lexo-backend)
-
-SaaS de gestão para escritórios de advocacia em **arquitetura de microsserviços** (9 serviços, com API Gateway e *service discovery*), com banco isolado por serviço, mensageria (**Kafka** para eventos de domínio e **RabbitMQ** com *dead-letter queue*), resiliência com *circuit breaker*, *rate limiting* no gateway e *tracing* distribuído (Zipkin). Integra **IA de verdade** (Google Gemini) para resumo de processos, assistente jurídico e geração de petições, além de um **portal público do cliente** (*magic link*) e **frontend React** completo. Deploy real em produção na Oracle Cloud, com HTTPS automático (Caddy + Let's Encrypt) e CI no GitHub Actions.
-
-`Java 21` · `Spring Boot` · `Spring Cloud` · `OpenFeign` · `Kafka` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Google Gemini` · `React` · `Docker Compose`
-
-**Demo ao vivo:** [lexo-kauan1.duckdns.org](https://lexo-kauan1.duckdns.org)
-
----
-
-<!--
-  (Opcional) Estatísticas do GitHub — descomente quando tiver mais atividade no perfil.
-  Hoje a conta é nova, então os números ainda aparecem baixos; vale ativar mais pra frente.
+## Em números
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KauanDiNubila&show_icons=true&theme=default&hide_border=true" alt="Estatisticas do GitHub" />
+  <img src="assets/stats.svg" alt="Estatísticas de contribuição" width="100%">
 </p>
--->
+<p align="center">
+  <img src="assets/heatmap.svg" alt="Mapa de atividade" width="100%">
+</p>
+<p align="center">
+  <img src="assets/languages.svg" alt="Linguagens por repositório" width="100%">
+</p>
+
+## Projetos em produção
+
+| | |
+|---|---|
+| **[Astra](https://github.com/KauanDiNubila/astra)**<br>Ecossistema de estudos | Sessões de foco (Pomodoro ou manual), dashboard, metas, roadmaps, ranking social e chat em tempo real, tudo agregado sobre um único núcleo: a sessão. Monólito modular por feature; JWT curto com refresh em cookie `httpOnly`, rotação e detecção de reuso; senha recusada se vazada; CSP restritiva; auditoria com OWASP ZAP.<br><br>`Java 21` `Spring Boot 4` `React` `PostgreSQL` `Neon` `Vercel` `Cloudflare`<br>**[astra-app.dev](https://astra-app.dev)** |
+| **[Lexo](https://github.com/KauanDiNubila/lexo-backend)**<br>SaaS jurídico em microsserviços | 9 serviços com API Gateway e Eureka, banco isolado por serviço, **Kafka** para eventos de domínio e **RabbitMQ** com *dead-letter queue*. *Circuit breaker* (Resilience4j), *rate limiting* no gateway, *tracing* distribuído (Zipkin) e identidade assinada entre serviços. IA com Google Gemini (resumo de processos, assistente, petições) e portal público do cliente por *magic link*. Deploy na Oracle Cloud com HTTPS automático.<br><br>`Java 21` `Spring Cloud` `Kafka` `RabbitMQ` `Redis` `PostgreSQL` `Gemini` `Docker`<br>**[lexo-kauan1.duckdns.org](https://lexo-kauan1.duckdns.org)** |
+
+## Mais projetos
+
+| Projeto | O que resolve | Stack |
+|---|---|---|
+| **[Ledger](https://github.com/KauanDiNubila/ledger)** | Importação em lote de transações financeiras: linha inválida é isolada com o motivo, o mesmo arquivo não entra duas vezes (hash SHA-256) e o volume é lido em *chunks* | Spring Batch, PostgreSQL |
+| **[Codechella](https://github.com/KauanDiNubila/Codechella)** | API reativa de eventos e ingressos, usada para comparar desempenho reativo e bloqueante sob carga | WebFlux, R2DBC, Flyway |
+| **[Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)** | Receitas e despesas com JWT, relatório mensal e gastos por categoria. [Demo](https://gestao-financeira-api-ss04.onrender.com) | Spring Boot, JPA, Docker |
+| **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)** | Trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro | Spring Boot, React Flow |
+
+## Stack
+
+| | |
+|---|---|
+| **Back-end** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![WebFlux](https://img.shields.io/badge/WebFlux-6DB33F?style=flat-square&logo=spring&logoColor=white) |
+| **Dados** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **Mensageria** | ![Kafka](https://img.shields.io/badge/Kafka-111110?style=flat-square&logo=apachekafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) |
+| **Qualidade** | ![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white) ![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square&logo=java&logoColor=white) ![Testcontainers](https://img.shields.io/badge/Testcontainers-111110?style=flat-square&logo=testcontainers&logoColor=white) ![OpenAPI](https://img.shields.io/badge/OpenAPI-85EA2D?style=flat-square&logo=swagger&logoColor=black) |
+| **Infra** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-111110?style=flat-square&logo=vercel&logoColor=white) |
+| **Front-end** | ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
+
+## Contato
+
+Aberto a oportunidades como desenvolvedor back-end Java. [LinkedIn](https://www.linkedin.com/in/kauan-di-nubila-933562263/) · [kauandinubila@gmail.com](mailto:kauandinubila@gmail.com)
