@@ -10,7 +10,7 @@
   <a href="mailto:kauandinubila@gmail.com"><img src="https://img.shields.io/badge/E--MAIL-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
 </p>
 
-## Sobre
+## Sobre mim
 
 <img align="right" width="190" src="assets/galaxy.webp" alt="Galáxia em espiral">
 
