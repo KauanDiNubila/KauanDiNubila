@@ -37,10 +37,13 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 ## Projetos em produção
 
-| | |
-|---|---|
-| **[Astra](https://github.com/KauanDiNubila/astra)**<br>Ecossistema de estudos | Sessões de foco (Pomodoro ou manual), dashboard, metas, roadmaps, ranking social e chat em tempo real, tudo agregado sobre um único núcleo: a sessão. Monólito modular por feature; JWT curto com refresh em cookie `httpOnly`, rotação e detecção de reuso; senha recusada se vazada; CSP restritiva; auditoria com OWASP ZAP.<br><br>`Java 21` `Spring Boot 4` `React` `PostgreSQL` `Neon` `Vercel` `Cloudflare`<br>**[astra-app.dev](https://astra-app.dev)** |
-| **[Lexo](https://github.com/KauanDiNubila/lexo-backend)**<br>SaaS jurídico em microsserviços | 9 serviços com API Gateway e Eureka, banco isolado por serviço, **Kafka** para eventos de domínio e **RabbitMQ** com *dead-letter queue*. *Circuit breaker* (Resilience4j), *rate limiting* no gateway, *tracing* distribuído (Zipkin) e identidade assinada entre serviços. IA com Google Gemini (resumo de processos, assistente, petições) e portal público do cliente por *magic link*. Deploy na Oracle Cloud com HTTPS automático.<br><br>`Java 21` `Spring Cloud` `Kafka` `RabbitMQ` `Redis` `PostgreSQL` `Gemini` `Docker`<br>**[lexo-kauan1.duckdns.org](https://lexo-kauan1.duckdns.org)** |
+<a href="https://github.com/KauanDiNubila/astra"><img src="assets/project-astra.svg" alt="Astra: ecossistema de estudos em monólito modular, com sessões de foco, metas, ranking social, chat em tempo real, JWT com rotação e OAuth2" width="100%"></a>
+
+[Demo ao vivo](https://astra-app.dev) · [Código](https://github.com/KauanDiNubila/astra)
+
+<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/project-lexo.svg" alt="Lexo: SaaS jurídico em 9 microsserviços, com API Gateway, Kafka, RabbitMQ, circuit breaker, tracing e IA com Gemini" width="100%"></a>
+
+[Demo ao vivo](https://lexo-kauan1.duckdns.org) · [Código](https://github.com/KauanDiNubila/lexo-backend)
 
 ## Mais projetos
 
