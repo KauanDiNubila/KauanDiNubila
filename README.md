@@ -39,6 +39,11 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 <a href="https://github.com/KauanDiNubila/astra"><img src="assets/capa-astra.svg" alt="Astra, ecossistema de estudos, monólito modular" width="100%"></a>
 
+<p>
+  <a href="https://astra-app.dev"><img src="assets/botao-demo.svg" alt="Demo ao vivo do Astra" height="44"></a>
+  <a href="https://github.com/KauanDiNubila/astra"><img src="assets/botao-codigo.svg" alt="Código do Astra no GitHub" height="44"></a>
+</p>
+
 **O que é**
 
 - Sessões de foco (Pomodoro ou registro manual), com categorias e cursos
@@ -58,11 +63,14 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 `Java 21` `Spring Boot 4` `React` `PostgreSQL` `Flyway` `Docker` `Neon` `Vercel` `Cloudflare`
 
-[Demo ao vivo](https://astra-app.dev) · [Código](https://github.com/KauanDiNubila/astra)
-
 <br>
 
 <a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/capa-lexo.svg" alt="Lexo, SaaS jurídico com IA, 9 microsserviços" width="100%"></a>
+
+<p>
+  <a href="https://lexo-kauan1.duckdns.org"><img src="assets/botao-demo.svg" alt="Demo ao vivo do Lexo" height="44"></a>
+  <a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/botao-codigo.svg" alt="Código do Lexo no GitHub" height="44"></a>
+</p>
 
 **O que é**
 
@@ -80,8 +88,6 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 - Deploy na Oracle Cloud com HTTPS automático (Caddy e Let's Encrypt) e CI no GitHub Actions
 
 `Java 21` `Spring Boot 3` `Spring Cloud` `Kafka` `RabbitMQ` `Redis` `PostgreSQL` `Gemini` `Docker` `React`
-
-[Demo ao vivo](https://lexo-kauan1.duckdns.org) · [Código](https://github.com/KauanDiNubila/lexo-backend)
 
 ## Mais projetos
 

@@ -28,4 +28,18 @@ for (const p of projects) {
   mkdirSync("assets", { recursive: true });
   writeFileSync(`assets/${p.file}`, svg);
 }
+function button(file, label, w, primary) {
+  const stroke = primary ? "#f5f5f5" : "#4a4a4a";
+  const dot = primary ? `<circle cx="22" cy="22" r="4" fill="#f5f5f5"/>` : "";
+  const tx = primary ? w / 2 + 8 : w / 2;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="44" viewBox="0 0 ${w} 44" role="img" aria-label="${esc(label)}" font-family="${FONT}">
+<rect x="0.5" y="0.5" width="${w - 1}" height="43" rx="22" fill="#0a0a0a" stroke="${stroke}"/>
+${dot}
+<text x="${tx}" y="28" font-size="16" font-weight="600" text-anchor="middle" fill="#f5f5f5">${esc(label)}</text>
+</svg>`;
+  writeFileSync(`assets/${file}`, svg);
+}
+
+button("botao-demo.svg", "Demo ao vivo ↗", 168, true);
+button("botao-codigo.svg", "Código ↗", 124, false);
 console.log("ok");
