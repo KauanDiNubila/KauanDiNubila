@@ -18,7 +18,7 @@ Desenvolvedor back-end com foco em Java e Spring Boot, cursando Análise e Desen
 
 Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a arquitetura, segurança, integração entre serviços e qualidade de código. Nos meus projetos, tenho explorado tanto arquiteturas modulares quanto microserviços, além de tecnologias como mensageria, comunicação em tempo real e cloud.
 
-- **Dois produtos full-stack próprios em produção**, um em microsserviços e outro em monólito modular, com mensageria, *circuit breaker*, *rate limiting* e observabilidade.
+- **Dois produtos full-stack próprios em produção**, um em monólito modular e outro em microsserviços, com mensageria, circuit breaker, rate limiting e observabilidade.
 - **Infraestrutura real:** containers, TLS, CI/CD, testes automatizados e segurança em camadas (JWT com rotação de refresh token, RBAC, CSP).
 - Português nativo, inglês avançado.
 
