@@ -91,12 +91,14 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 ## Mais projetos
 
-| Projeto | O que resolve | Stack |
-|---|---|---|
-| **[Ledger](https://github.com/KauanDiNubila/ledger)** | Importação em lote de transações financeiras: linha inválida é isolada com o motivo, o mesmo arquivo não entra duas vezes (hash SHA-256) e o volume é lido em *chunks* | Spring Batch, PostgreSQL |
-| **[Codechella](https://github.com/KauanDiNubila/Codechella)** | API reativa de eventos e ingressos, usada para comparar desempenho reativo e bloqueante sob carga | WebFlux, R2DBC, Flyway |
-| **[Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)** | Receitas e despesas com JWT, relatório mensal e gastos por categoria. [Demo](https://gestao-financeira-api-ss04.onrender.com) | Spring Boot, JPA, Docker |
-| **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)** | Trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro | Spring Boot, React Flow |
+- **[Ledger](https://github.com/KauanDiNubila/ledger)**: importação em lote de transações financeiras. Linha inválida é isolada com o motivo, o mesmo arquivo não entra duas vezes (hash SHA-256) e o volume é lido em *chunks*.  
+  `Spring Batch` `PostgreSQL`
+- **[Codechella](https://github.com/KauanDiNubila/Codechella)**: API reativa de eventos e ingressos, usada para comparar desempenho reativo e bloqueante sob carga.  
+  `WebFlux` `R2DBC` `Flyway`
+- **[Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)**: receitas e despesas com JWT, relatório mensal e gastos por categoria. [Demo](https://gestao-financeira-api-ss04.onrender.com)  
+  `Spring Boot` `JPA` `Docker`
+- **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)**: trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro.  
+  `Spring Boot` `React Flow`
 
 ## Contato
 
