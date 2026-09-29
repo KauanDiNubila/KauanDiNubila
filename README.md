@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Kauan Di Nubila, desenvolvedor back-end Java e Spring" width="100%">
+  <img src="assets/hero.gif" alt="Kauan Di Nubila, desenvolvedor back-end Java e Spring" width="100%">
 </p>
 
 <p align="center">
