@@ -19,7 +19,7 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 ## Em números
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KauanDiNubila&show_icons=true&theme=default&hide_border=true" alt="Estatísticas do GitHub" />
+  <img src="assets/stats.svg" alt="Estatísticas do GitHub" width="100%">
 </p>
 
 ## Projetos em produção
