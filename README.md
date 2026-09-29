@@ -16,12 +16,6 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 - **Infraestrutura real:** containers, TLS, CI/CD, testes automatizados e segurança em camadas (JWT com rotação de refresh token, RBAC, CSP).
 - Português nativo, inglês avançado.
 
-## Atividade
-
-<p align="center">
-  <img src="assets/activity.svg" alt="Contribuições no último ano" width="100%">
-</p>
-
 ## Projetos em produção
 
 | | |
