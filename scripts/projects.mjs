@@ -4,11 +4,10 @@ const FONT = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
 const MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', monospace";
 
 const projects = [
-  { file: "projeto-astra.svg", name: "Astra", sub: "Ecossistema de estudos" },
-  { file: "projeto-lexo.svg", name: "Lexo", sub: "SaaS jurídico com IA" },
+  { file: "card-astra.svg", name: "Astra", sub: "Ecossistema de estudos" },
+  { file: "card-lexo.svg", name: "Lexo", sub: "SaaS jurídico com IA" },
 ];
 
-const W = 830;
 const H = 68;
 const PAD = 28;
 
@@ -18,6 +17,7 @@ function esc(s) {
 
 for (const p of projects) {
   const nameW = Math.round(p.name.length * 17.5 + 18);
+  const W = PAD + nameW + Math.round(p.sub.length * 10.6) + PAD;
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(p.name)}, ${esc(p.sub)}" font-family="${FONT}">
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="#0a0a0a" stroke="#3a3a3a"/>
 <text x="${PAD}" y="45" font-size="34" font-weight="700" fill="#f5f5f5">${esc(p.name)}</text>
