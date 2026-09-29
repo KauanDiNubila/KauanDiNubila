@@ -37,7 +37,7 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 ## Projetos em produção
 
-<a href="https://github.com/KauanDiNubila/astra"><img src="assets/project-astra.svg" alt="Astra, ecossistema de estudos, monólito modular" width="100%"></a>
+<a href="https://github.com/KauanDiNubila/astra"><img src="assets/capa-astra.svg" alt="Astra, ecossistema de estudos, monólito modular" width="100%"></a>
 
 **O que é**
 
@@ -62,7 +62,7 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 <br>
 
-<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/project-lexo.svg" alt="Lexo, SaaS jurídico com IA, 9 microsserviços" width="100%"></a>
+<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/capa-lexo.svg" alt="Lexo, SaaS jurídico com IA, 9 microsserviços" width="100%"></a>
 
 **O que é**
 

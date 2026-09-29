@@ -4,8 +4,8 @@ const FONT = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
 const MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', monospace";
 
 const projects = [
-  { file: "project-astra.svg", name: "Astra", sub: "Ecossistema de estudos", tag: "MONÓLITO MODULAR" },
-  { file: "project-lexo.svg", name: "Lexo", sub: "SaaS jurídico com IA", tag: "9 MICROSSERVIÇOS" },
+  { file: "capa-astra.svg", name: "Astra", sub: "Ecossistema de estudos", tag: "MONÓLITO MODULAR" },
+  { file: "capa-lexo.svg", name: "Lexo", sub: "SaaS jurídico com IA", tag: "9 MICROSSERVIÇOS" },
 ];
 
 const W = 830;
