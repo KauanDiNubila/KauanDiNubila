@@ -1,4 +1,4 @@
-<img src="assets/header.webp" alt="Knowledge has a beginning but no end" width="100%">
+<img src="assets/header.webp" alt="Ondas em ilustração estilo ukiyo-e" width="100%">
 
 <h1>Kauan Di Nubila <img src="assets/wave.svg" width="40" height="40" align="absmiddle" alt="👋"></h1>
 
