@@ -37,11 +37,49 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 ## Projetos em produção
 
-<a href="https://github.com/KauanDiNubila/astra"><img src="assets/project-astra.svg" alt="Astra: ecossistema de estudos em monólito modular, com sessões de foco, metas, ranking social, chat em tempo real, JWT com rotação e OAuth2" width="100%"></a>
+<a href="https://github.com/KauanDiNubila/astra"><img src="assets/project-astra.svg" alt="Astra, ecossistema de estudos, monólito modular" width="100%"></a>
+
+**O que é**
+
+- Sessões de foco (Pomodoro ou registro manual), com categorias e cursos
+- Dashboard com metas, streak e heatmap de atividade
+- Cursos com módulos, roadmaps de aprendizado e ranking social
+- Chat em tempo real entre amigos
+- Integração com o GitHub, que cruza commits, PRs e issues com o tempo estudado
+
+**Como foi feito**
+
+- Monólito modular por feature (usuário, sessões, cursos, roadmaps e estatísticas), com os módulos se comunicando só por serviços públicos
+- Tudo o que é derivado (ranking, heatmap, streak e progresso) é calculado por agregação sobre a sessão, sem tabelas duplicadas
+- Autenticação com JWT de acesso curto, refresh token em cookie `httpOnly` com rotação e detecção de reuso, login OAuth2 (Google e GitHub) e recusa de senhas vazadas
+- Autorização por papéis, CSP restritiva e auditoria de segurança com OWASP ZAP
+- Testes de integração com Testcontainers e CI no GitHub Actions
+- Front-end na Vercel, API em uma VM na nuvem, Postgres serverless no Neon e Cloudflare na frente
+
+`Java 21` `Spring Boot 4` `React` `PostgreSQL` `Flyway` `Docker` `Neon` `Vercel` `Cloudflare`
 
 [Demo ao vivo](https://astra-app.dev) · [Código](https://github.com/KauanDiNubila/astra)
 
-<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/project-lexo.svg" alt="Lexo: SaaS jurídico em 9 microsserviços, com API Gateway, Kafka, RabbitMQ, circuit breaker, tracing e IA com Gemini" width="100%"></a>
+<br>
+
+<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/project-lexo.svg" alt="Lexo, SaaS jurídico com IA, 9 microsserviços" width="100%"></a>
+
+**O que é**
+
+- Gestão para escritórios de advocacia, multi-tenant: cada escritório acessa só os próprios dados
+- Processos com andamentos, clientes, agenda de prazos e honorários
+- IA com Google Gemini: resumo de processos, assistente jurídico e rascunho de petições
+- Portal público do cliente por magic link, com processos, prazos e honorários
+
+**Como foi feito**
+
+- 9 serviços (gateway, discovery e sete de domínio), com API Gateway, Eureka e banco de dados isolado por serviço
+- Comunicação síncrona com OpenFeign e assíncrona com Kafka para eventos de domínio e RabbitMQ para e-mails, com retry e dead-letter queue
+- Resiliência com circuit breaker e fallback (Resilience4j), rate limiting com Redis e tracing distribuído com Zipkin
+- O gateway valida o JWT e assina a identidade repassada aos serviços, que recusam requisições sem assinatura; rotas internas exigem chave de serviço
+- Deploy na Oracle Cloud com HTTPS automático (Caddy e Let's Encrypt) e CI no GitHub Actions
+
+`Java 21` `Spring Boot 3` `Spring Cloud` `Kafka` `RabbitMQ` `Redis` `PostgreSQL` `Gemini` `Docker` `React`
 
 [Demo ao vivo](https://lexo-kauan1.duckdns.org) · [Código](https://github.com/KauanDiNubila/lexo-backend)
 
