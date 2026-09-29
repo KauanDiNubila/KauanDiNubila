@@ -10,7 +10,7 @@
 
 ## Sobre
 
-<img align="right" width="300" src="assets/galaxy.webp" alt="Galáxia em espiral">
+<img align="right" width="190" src="assets/galaxy.webp" alt="Galáxia em espiral">
 
 Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise e Desenvolvimento de Sistemas. Construo sistemas completos e coloco no ar.
 
