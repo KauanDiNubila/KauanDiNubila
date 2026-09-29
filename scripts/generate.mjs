@@ -229,46 +229,7 @@ ${xl}
   );
 }
 
-function cloudSvg() {
-  const W = 300;
-  const H = 210;
-  let seed = 5;
-  const rnd = () => {
-    seed = (seed * 16807) % 2147483647;
-    return seed / 2147483647;
-  };
-  const nodes = [];
-  for (let i = 0; i < 90; i++) {
-    const a = rnd() * Math.PI * 2;
-    const r = Math.sqrt(rnd()) * 92;
-    nodes.push({ x: W / 2 + Math.cos(a) * r * 1.25, y: H / 2 + Math.sin(a) * r * 0.9, s: 1 + rnd() * 2.2, b: rnd() < 0.2 });
-  }
-  const links = [];
-  for (let i = 0; i < nodes.length; i++) {
-    for (let j = i + 1; j < nodes.length; j++) {
-      const d = Math.hypot(nodes[i].x - nodes[j].x, nodes[i].y - nodes[j].y);
-      if (d < 46) {
-        links.push(
-          `<line x1="${nodes[i].x.toFixed(1)}" y1="${nodes[i].y.toFixed(1)}" x2="${nodes[j].x.toFixed(1)}" y2="${nodes[j].y.toFixed(1)}" stroke="#ffffff" stroke-opacity="${(0.5 - d / 100).toFixed(2)}"/>`
-        );
-      }
-    }
-  }
-  const dots = nodes
-    .map(
-      (n) =>
-        `<circle cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.s.toFixed(1)}" fill="#ffffff" fill-opacity="${n.b ? 1 : 0.6}"/>`
-    )
-    .join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Nuvem de partículas do portfólio">
-<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${BG}" stroke="${EDGE}"/>
-${links.join("\n")}
-${dots}
-</svg>`;
-}
-
 mkdirSync("assets", { recursive: true });
-writeFileSync("assets/cloud.svg", cloudSvg());
 
 const profile = (await gql(PROFILE, { login: LOGIN })).user;
 const days = await allDays(profile.createdAt);

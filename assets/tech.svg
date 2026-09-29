@@ -120,7 +120,7 @@ svg{--ink:#24292f;--tile:#f0f2f5}
         transform-origin: 50% 50%;
       }
       .odocker-docker {
-        fill: #099CEC
+        fill: #2496ED
       }
       .odocker-second-floor {
         animation: odocker-second-floor-ani 5s ease-in infinite;
