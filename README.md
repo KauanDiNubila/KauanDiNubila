@@ -53,4 +53,4 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 ## Contato
 
-Aberto a oportunidades como desenvolvedor back-end Java. [LinkedIn](https://www.linkedin.com/in/kauan-di-nubila-933562263/) · [kauandinubila@gmail.com](mailto:kauandinubila@gmail.com)
+Aberto a oportunidades como desenvolvedor. [LinkedIn](https://www.linkedin.com/in/kauan-di-nubila-933562263/) · [kauandinubila@gmail.com](mailto:kauandinubila@gmail.com)
