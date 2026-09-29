@@ -20,27 +20,7 @@ Desenvolvedor back-end com foco em **Java** e **Spring Boot**, cursando Análise
 
 ## Tecnologias
 
-<p>
-  <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/SPRING_BOOT-000000?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/SPRING_CLOUD-000000?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Cloud">
-  <img src="https://img.shields.io/badge/SPRING_SECURITY-000000?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security">
-  <img src="https://img.shields.io/badge/WEBFLUX-000000?style=for-the-badge&logo=spring&logoColor=white" alt="WebFlux">
-  <img src="https://img.shields.io/badge/POSTGRESQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/MYSQL-000000?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/REDIS-000000?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
-  <img src="https://img.shields.io/badge/FLYWAY-000000?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway">
-  <img src="https://img.shields.io/badge/KAFKA-000000?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka">
-  <img src="https://img.shields.io/badge/RABBITMQ-000000?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ">
-  <img src="https://img.shields.io/badge/DOCKER-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GITHUB_ACTIONS-000000?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/JUNIT_5-000000?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit 5">
-  <img src="https://img.shields.io/badge/OPENAPI-000000?style=for-the-badge&logo=swagger&logoColor=white" alt="OpenAPI">
-  <img src="https://img.shields.io/badge/ORACLE_CLOUD-000000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud">
-  <img src="https://img.shields.io/badge/CLOUDFLARE-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare">
-  <img src="https://img.shields.io/badge/REACT-000000?style=for-the-badge&logo=react&logoColor=white" alt="React">
-  <img src="https://img.shields.io/badge/TYPESCRIPT-000000?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-</p>
+<img src="assets/tech.svg" alt="Tecnologias: Java, Spring, PostgreSQL, MySQL, Redis, Flyway, Kafka, RabbitMQ, Docker, GitHub Actions, JUnit, OpenAPI, Git, Maven, Linux, Cloudflare, React, TypeScript, Vercel" width="672">
 
 ## Estatísticas
 
