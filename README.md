@@ -26,23 +26,19 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 <img src="assets/tech.svg" alt="Tecnologias: Java, Spring, PostgreSQL, MySQL, Redis, Flyway, Kafka, RabbitMQ, Docker, GitHub Actions, JUnit, OpenAPI, Git, Maven, Linux, Cloudflare, React, TypeScript, Vercel" width="672">
 
-## Estatísticas
-
-<p>
-  <img src="assets/stats.svg" alt="Estatísticas do GitHub" height="190">
-  <img src="assets/streak.svg" alt="Sequência de contribuições" height="190">
-</p>
-
-<img src="assets/graph.svg" alt="Gráfico de contribuições dos últimos 30 dias" width="100%">
-
 ## Projetos em produção
 
-<a href="https://github.com/KauanDiNubila/astra"><img src="assets/cartao-astra.svg" alt="Astra, ecossistema de estudos, monólito modular"></a>
+<a href="https://github.com/KauanDiNubila/astra"><img src="assets/cartao-astra.svg" alt="Astra, ecossistema de estudos"></a>
 
 <p>
   <a href="https://astra-app.dev"><img src="assets/btn-demo.svg" alt="Demo ao vivo do Astra" height="32"></a>
   <a href="https://github.com/KauanDiNubila/astra"><img src="assets/btn-codigo.svg" alt="Código do Astra no GitHub" height="32"></a>
 </p>
+
+App para organizar estudo e trabalho, com sessões de foco, metas, ranking social e chat em tempo real.
+
+<details>
+<summary><b>Ver detalhes técnicos</b></summary>
 
 **O que é**
 
@@ -63,14 +59,21 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 `Java 21` `Spring Boot 4` `React` `PostgreSQL` `Flyway` `Docker` `Neon` `Vercel` `Cloudflare`
 
+</details>
+
 <br>
 
-<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/cartao-lexo.svg" alt="Lexo, SaaS jurídico com IA, 9 microsserviços"></a>
+<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/cartao-lexo.svg" alt="Lexo, SaaS jurídico com IA"></a>
 
 <p>
   <a href="https://lexo-kauan1.duckdns.org"><img src="assets/btn-demo.svg" alt="Demo ao vivo do Lexo" height="32"></a>
   <a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/btn-codigo.svg" alt="Código do Lexo no GitHub" height="32"></a>
 </p>
+
+SaaS para escritórios de advocacia em 9 microsserviços, com IA e portal público do cliente.
+
+<details>
+<summary><b>Ver detalhes técnicos</b></summary>
 
 **O que é**
 
@@ -89,16 +92,14 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 `Java 21` `Spring Boot 3` `Spring Cloud` `Kafka` `RabbitMQ` `Redis` `PostgreSQL` `Gemini` `Docker` `React`
 
+</details>
+
 ## Mais projetos
 
-- **[Ledger](https://github.com/KauanDiNubila/ledger)**: importação em lote de transações financeiras. Linha inválida é isolada com o motivo, o mesmo arquivo não entra duas vezes (hash SHA-256) e o volume é lido em *chunks*.  
-  `Spring Batch` `PostgreSQL`
-- **[Codechella](https://github.com/KauanDiNubila/Codechella)**: API reativa de eventos e ingressos, usada para comparar desempenho reativo e bloqueante sob carga.  
-  `WebFlux` `R2DBC` `Flyway`
-- **[Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)**: receitas e despesas com JWT, relatório mensal e gastos por categoria. [Demo](https://gestao-financeira-api-ss04.onrender.com)  
-  `Spring Boot` `JPA` `Docker`
-- **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)**: trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro.  
-  `Spring Boot` `React Flow`
+- **[Ledger](https://github.com/KauanDiNubila/ledger)**: importação em lote de transações financeiras, com isolamento de linhas inválidas e proteção contra arquivo duplicado.
+- **[Codechella](https://github.com/KauanDiNubila/Codechella)**: API reativa de eventos e ingressos, comparada com a versão bloqueante sob carga.
+- **[Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)**: receitas e despesas com JWT e relatório mensal. [Demo](https://gestao-financeira-api-ss04.onrender.com)
+- **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)**: trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro.
 
 ## Contato
 
