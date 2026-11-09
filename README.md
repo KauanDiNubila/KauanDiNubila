@@ -1,5 +1,3 @@
-<img src="assets/header.gif" alt="Janela pixel art com o título The Unknown e estrelas cintilando" width="100%">
-
 <h1>Kauan Di Nubila <img src="assets/wave.svg" width="40" height="40" align="absmiddle" alt="👋"></h1>
 
 <p><strong>Desenvolvedor Back-End · Java &amp; Spring Boot</strong></p>
