@@ -22,7 +22,7 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 ## Tecnologias
 
-<img src="assets/tech.svg" alt="Tecnologias: Java, Spring, PostgreSQL, MySQL, Redis, Flyway, Kafka, RabbitMQ, Docker, GitHub Actions, JUnit, OpenAPI, Git, Maven, Linux, Cloudflare, React, TypeScript, Vercel" width="672">
+<img src="assets/tecnologias.svg" alt="Tecnologias: Java, Spring Boot, Spring Cloud, Spring Security, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, Docker, GitHub Actions, JUnit, React, TypeScript" width="672">
 
 ## Projetos em produção
 

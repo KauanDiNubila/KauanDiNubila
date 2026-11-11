@@ -1,12 +1,12 @@
 # Licenças de terceiros
 
-A grade animada de tecnologias (`assets/tech.svg`) usa materiais de terceiros:
+A grade animada de tecnologias (`assets/tecnologias.svg`) usa materiais de terceiros:
 
-- **techstack-generator** (MIT, Copyright (c) 2021 shellboy): as animações dos ícones de Java, MySQL, Docker, GitHub, REST API, React e TypeScript. Origem: https://github.com/qkrdmstlr3/techstack-generator
-- **devicon** (MIT): os logos de PostgreSQL, Redis, Kafka, RabbitMQ, Spring, GitHub Actions, JUnit, OpenAPI, Cloudflare e Vercel. Origem: https://github.com/devicons/devicon
-- **simple-icons** (CC0 1.0): os logos de Spring Boot, Spring Security, Flyway e Maven. Origem: https://github.com/simple-icons/simple-icons
+- **techstack-generator** (MIT, Copyright (c) 2021 shellboy): as animações dos ícones de Java, MySQL, Docker, React e TypeScript. Origem: https://github.com/qkrdmstlr3/techstack-generator
+- **devicon** (MIT): os logos de PostgreSQL, Redis, Kafka, RabbitMQ, Spring, GitHub Actions e JUnit. Origem: https://github.com/devicons/devicon
+- **simple-icons** (CC0 1.0): os logos de Spring Boot e Spring Security. Origem: https://github.com/simple-icons/simple-icons
 
-As animações dos ícones de PostgreSQL, Redis, Kafka, RabbitMQ, Spring, Maven, Flyway, Cloudflare e Vercel foram feitas para este perfil.
+As animações dos ícones de PostgreSQL, Redis, Kafka, RabbitMQ, Spring, Spring Boot, Spring Security, GitHub Actions e JUnit foram feitas para este perfil.
 
 ## Licença do techstack-generator
 
