@@ -24,14 +24,11 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 
 ## Projetos em produção
 
-<a href="https://github.com/KauanDiNubila/astra"><img src="assets/cartao-astra.svg" alt="Astra, ecossistema de estudos"></a>
-
-<p>
-  <a href="https://astra-app.dev"><img src="assets/btn-demo.svg" alt="Demo ao vivo do Astra" height="32"></a>
-  <a href="https://github.com/KauanDiNubila/astra"><img src="assets/btn-codigo.svg" alt="Código do Astra no GitHub" height="32"></a>
-</p>
+### Astra
 
 App para organizar estudo e trabalho, com sessões de foco, metas, ranking social e chat em tempo real.
+
+[Demo ao vivo](https://astra-app.dev) · [Código](https://github.com/KauanDiNubila/astra)
 
 <details>
 <summary><b>Ver detalhes técnicos</b></summary>
@@ -57,16 +54,11 @@ App para organizar estudo e trabalho, com sessões de foco, metas, ranking socia
 
 </details>
 
-<br>
-
-<a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/cartao-lexo.svg" alt="Lexo, SaaS jurídico com IA"></a>
-
-<p>
-  <a href="https://lexo-kauan1.duckdns.org"><img src="assets/btn-demo.svg" alt="Demo ao vivo do Lexo" height="32"></a>
-  <a href="https://github.com/KauanDiNubila/lexo-backend"><img src="assets/btn-codigo.svg" alt="Código do Lexo no GitHub" height="32"></a>
-</p>
+### Lexo
 
 SaaS para escritórios de advocacia em 9 microsserviços, com IA e portal público do cliente.
+
+[Demo ao vivo](https://lexo-kauan1.duckdns.org) · [Código](https://github.com/KauanDiNubila/lexo-backend)
 
 <details>
 <summary><b>Ver detalhes técnicos</b></summary>
