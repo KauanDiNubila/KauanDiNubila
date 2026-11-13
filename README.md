@@ -29,14 +29,11 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 <a href="https://github.com/KauanDiNubila/astra"><img src="assets/cartao-astra.svg" alt="Astra, ecossistema de estudos"></a>
 
 <p>
-  <a href="https://apps.microsoft.com/detail/9NRB7QNCJGSP?hl=pt-br&gl=BR"><img src="assets/btn-store.svg" alt="Astra na Microsoft Store" height="32"></a>
   <a href="https://astra-app.dev"><img src="assets/btn-demo.svg" alt="Demo ao vivo do Astra" height="32"></a>
   <a href="https://github.com/KauanDiNubila/astra"><img src="assets/btn-codigo.svg" alt="Código do Astra no GitHub" height="32"></a>
 </p>
 
 App para organizar estudo e trabalho, com sessões de foco, metas, ranking social e chat em tempo real.
-
-**Publicado na Microsoft Store:** o app para Windows foi aprovado na certificação da Microsoft e tem chamadas de voz e vídeo, compartilhamento de tela com áudio e notificações nativas.
 
 <details>
 <summary><b>Ver detalhes técnicos</b></summary>
@@ -48,7 +45,6 @@ App para organizar estudo e trabalho, com sessões de foco, metas, ranking socia
 - Cursos com módulos, roadmaps de aprendizado e ranking social
 - Chat em tempo real entre amigos
 - Integração com o GitHub, que cruza commits, PRs e issues com o tempo estudado
-- App para Windows publicado na Microsoft Store, com chamadas de voz e vídeo (WebRTC), compartilhamento de tela com som do sistema e notificações nativas
 
 **Como foi feito**
 
@@ -58,9 +54,8 @@ App para organizar estudo e trabalho, com sessões de foco, metas, ranking socia
 - Autorização por papéis, CSP restritiva e auditoria de segurança com OWASP ZAP
 - Testes de integração com Testcontainers e CI no GitHub Actions
 - Front-end na Vercel, API em uma VM na nuvem, Postgres serverless no Neon e Cloudflare na frente
-- App desktop em Electron, empacotado em AppX e certificado pela Microsoft: cadastro no Partner Center, identidade, ficha da loja, classificação etária e pipeline de build, com login social pelo navegador do sistema e retorno por deep link
 
-`Java 21` `Spring Boot 4` `React` `Electron` `WebRTC` `PostgreSQL` `Flyway` `Docker` `Neon` `Vercel` `Cloudflare`
+`Java 21` `Spring Boot 4` `React` `PostgreSQL` `Flyway` `Docker` `Neon` `Vercel` `Cloudflare`
 
 </details>
 
