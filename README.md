@@ -92,10 +92,15 @@ SaaS para escritórios de advocacia em 9 microsserviços, com IA e portal públi
 
 ## Mais projetos
 
+<details>
+<summary><b>Ver mais projetos</b></summary>
+
 - **[Ledger](https://github.com/KauanDiNubila/ledger)**: importação em lote de transações financeiras, com isolamento de linhas inválidas e proteção contra arquivo duplicado.
 - **[Codechella](https://github.com/KauanDiNubila/Codechella)**: API reativa de eventos e ingressos, comparada com a versão bloqueante sob carga.
 - **[Gestão Financeira API](https://github.com/KauanDiNubila/gestao-financeira-api)**: receitas e despesas com JWT e relatório mensal. [Demo](https://gestao-financeira-api-ss04.onrender.com)
 - **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)**: trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro.
+
+</details>
 
 ## Contato
 
