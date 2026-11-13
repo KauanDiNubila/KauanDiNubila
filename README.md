@@ -10,8 +10,6 @@
 
 ## Sobre mim
 
-<img align="right" width="190" src="assets/galaxy.webp" alt="Galáxia em espiral">
-
 Desenvolvedor back-end com foco em Java e Spring Boot, cursando Análise e Desenvolvimento de Sistemas. Tenho construído aplicações completas, desde a modelagem e desenvolvimento das APIs até testes, segurança, infraestrutura e deploy em produção.
 
 Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a arquitetura, segurança, integração entre serviços e qualidade de código. Nos meus projetos, tenho explorado tanto arquiteturas modulares quanto microserviços, além de tecnologias como mensageria, comunicação em tempo real e cloud.
