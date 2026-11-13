@@ -18,10 +18,6 @@ Meu foco está no desenvolvimento de sistemas bem estruturados, com atenção a 
 - Experiência prática com desenvolvimento e operação de aplicações, incluindo Docker, CI/CD, testes automatizados, TLS e implementação de camadas de segurança com JWT, rotação de refresh tokens, RBAC e CSP.
 - Português nativo, inglês avançado.
 
-## Tecnologias
-
-<img src="assets/tecnologias.svg" alt="Tecnologias: Java, Spring Boot, Spring Cloud, Spring Security, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, Docker, GitHub Actions, JUnit, React, TypeScript" width="672">
-
 ## Projetos em produção
 
 ### Astra
@@ -93,6 +89,10 @@ SaaS para escritórios de advocacia em 9 microsserviços, com IA e portal públi
 - **[Nexus Roadmap](https://github.com/KauanDiNubila/nexusRoadmap)**: trilha de estudos gamificada com árvore de tecnologias, XP e Pomodoro.
 
 </details>
+
+## Tecnologias
+
+<img src="assets/tecnologias.svg" alt="Tecnologias: Java, Spring Boot, Spring Cloud, Spring Security, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, Docker, GitHub Actions, JUnit, React, TypeScript" width="672">
 
 ## Contato
 
